@@ -1,0 +1,55 @@
+form {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    background-color: #EDEDED;
+    padding: 3rem;
+    box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.5);
+}
+
+input, 
+textarea, 
+select,
+button {
+    padding: 0.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+button {
+    background-color: #00b3ff;
+    background-color: lineargradient()
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+    font-size: 1rem;
+}
+
+label {
+    margin-left: 0.5rem;
+}
+
+fieldset {
+    border: 1px solid rgb(150, 189, 202);
+}
+
+fieldset > input {
+    margin: 0.5rem;
+}
+
+.info {
+    color: red;
+    font-size: 1rem;
+}
+
+.object {
+    font-size: 1rem;
+}
